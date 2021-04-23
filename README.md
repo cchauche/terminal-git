@@ -49,7 +49,10 @@ A workshop designed to give students a hands-on introduction to useful terminal 
 
 
 ## Must Know Terminal Commands
+> *Printable PDF cheat sheet can be found in the repo [HERE](./terminal_shortcuts_cc.pdf)*
+
 _Thank you to [Onno Schwanen](https://github.com/0nn0) and their [terminal cheatsheet repo](https://github.com/0nn0/terminal-mac-cheatsheet)_
+
 
 | Key/Command | Description |
 | ----------- | ----------- |
