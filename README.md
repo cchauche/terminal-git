@@ -1,6 +1,53 @@
 # Terminal Zoo
 A workshop designed to give students a hands-on introduction to useful terminal commands/tools as well as some tips for using Git.
 
+# Table of Contents
+
+- [Must Know Terminal Commands](#must-know-terminal-commands)
+
+- [Terminal Shortcuts](#terminal-shortcuts)
+
+- [File Path Shortcuts](#file-path-shortcuts)
+
+- [Handy Terminal Tools](#handy-terminal-tools)
+
+  - [vim](#vim)
+
+  - [curl (cURL)](#curl-(cURL))
+
+  - [ping](#ping)
+
+  - [nc (netcat)](#nc-(netcat))
+
+- [Build A Server Using Only The Terminal](#build-a-server-using-only-the-terminal)
+
+  - [Get Started](#get-started)
+
+  - [Create A Hello World Server](#create-a-hello-world-server)
+
+- [Working with Git](#working-with-git)
+
+  - [Making Commits](#making-commits)
+
+  - [Stage Only Files Of One Type](#stage-only-files-of-one-type)
+
+  - [Create Two Smaller Commits](#create-two-smaller-commits)
+
+  - [Making A Branch](#making-a-branch)
+
+  - [Explore More Git](#explore-more-git)
+
+- [Command Line Resources](#command-line-resources)
+
+  - [Terminal](#terminal)
+
+  - [Colin's Vim Customization](#colin's-vim-customization)
+
+  - [You don't get it I want to be a terminal wizard](#you-don't-get-it-i-want-to-be-a-terminal-wizard)
+
+- [Git Resources](#git-resources)
+
+
 ## Must Know Terminal Commands
 _Thank you to [Onno Schwanen](https://github.com/0nn0) and their [terminal cheatsheet repo](https://github.com/0nn0/terminal-mac-cheatsheet)_
 
@@ -72,7 +119,7 @@ TCP/UDP network communication tool
 - Easy tool to test if a port is open (ex. `nc -vz 127.0.0.1 3000`)
 - And much more...
 
-# Build a server using only the terminal
+# Build A Server Using Only The Terminal
 We are going to build a simple web server using only the terminal and the terminal tools we reviewed earlier.  
 
 ## Get Started
@@ -93,7 +140,7 @@ We are going to build a simple web server using only the terminal and the termin
   npm install
   ```
 
-## Create a hello world server
+## Create A Hello World Server
 - Create the following directories and files using appropriate terminal commands
   ```
   terminal-git
@@ -156,7 +203,7 @@ Now that we have a working server lets create a new commit, but wait there are a
 - You are probably already familiar with `git add .` which adds everything in the current directory (and all sub-directories) but you can use other shortcuts as well
 - Lets stage just the files in the public directory by typing `git add public/`
 - Lets remove all the staged files using `git restore --staged .`
-## Stage Only Files of One Type
+## Stage Only Files Of One Type
 - Next stage only the javascript files with `git add *.js`
   - The wildcard `*` can be added in other ways as well for example `*/index.*` would add any files called 'index' of any file type in any subdirectory.
 - Lets once again unstage all our files and now create two commits
